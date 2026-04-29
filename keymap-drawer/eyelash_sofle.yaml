@@ -26,8 +26,8 @@ layers:
   - I
   - O
   - P
-  - {t: '`', s: '~'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -52,19 +52,19 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - {t: \, s: '|'}
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:volume-off$$
-  - $$mdi:apple-keyboard-control$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
-  - {t: '$$mdi:keyboard-return$$', type: enter}
   - '2'
   - $$mdi:apple-keyboard-option$$
-  - SCROLLLOCK
+  - $$mdi:backspace-reverse-outline$$
+  - PRINTSCREEN
   layer1:
   - {t: '`', s: '~'}
   - F1
@@ -77,8 +77,8 @@ layers:
   - F7
   - F8
   - F9
-  - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '`', s: '~'}
   - $$mdi:mouse-left-click-outline$$
@@ -87,12 +87,12 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - END
-  - $$mdi:arrow-up-bold$$
   - HOME
-  - {t: '-', s: _}
-  - {t: '=', s: +}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - END
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - $$mdi:apple-keyboard-caps$$
   - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -103,8 +103,8 @@ layers:
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
+  - PgUp
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
@@ -142,8 +142,8 @@ layers:
   - F7
   - F8
   - F9
-  - F10
-  - {t: '$$mdi:transfer$$', type: trans}
+  - _
+  - +
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:bluetooth-off$$
   - BT CLR ALL
@@ -152,11 +152,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - F10
   - F11
   - F12
-  - _
-  - +
+  - '{'
+  - '}'
   - {t: '$$mdi:transfer$$', type: trans}
   - OUT USB
   - OUT BLE
@@ -168,8 +168,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '{'
-  - '}'
+  - HOME
+  - END
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:backup-restore$$', type: bootloader}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
